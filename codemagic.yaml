@@ -8,8 +8,8 @@ workflows:
     scripts:
       - name: Set Android SDK
         script: echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
-      - name: Build Android Release APK
+      - name: Build Android Debug APK
         script: |
-          gradle assembleRelease
+          gradle assembleDebug
     artifacts:
       - app/build/outputs/apk/**/*.apk
