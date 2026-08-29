@@ -1,4 +1,4 @@
-package com.example.uberoverlay
+package com.starwhale.uberradius
 
 import android.Manifest
 import android.app.Notification
